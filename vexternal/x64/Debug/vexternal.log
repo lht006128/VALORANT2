@@ -1,0 +1,59 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  Sandy64.cpp
+  vexternal.cpp
+c:\users\user\desktop\valorant (1)\vexternal\defs.h(106): warning C4005: “LOBYTE”: 宏重定义
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(206): note: 参见“LOBYTE”的前一个定义
+c:\users\user\desktop\valorant (1)\vexternal\defs.h(107): warning C4005: “LOWORD”: 宏重定义
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(204): note: 参见“LOWORD”的前一个定义
+c:\users\user\desktop\valorant (1)\vexternal\defs.h(109): warning C4005: “HIBYTE”: 宏重定义
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(207): note: 参见“HIBYTE”的前一个定义
+c:\users\user\desktop\valorant (1)\vexternal\defs.h(110): warning C4005: “HIWORD”: 宏重定义
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(205): note: 参见“HIWORD”的前一个定义
+c:\users\user\desktop\valorant (1)\vexternal\defs.h(411): warning C4244: “=”: 从“unsigned __int64”转换到“int”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\defs.h(416): warning C4244: “=”: 从“unsigned __int64”转换到“int”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\defs.h(419): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(70): warning C4244: “参数”: 从“uintptr_t”转换到“ULONG”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(76): warning C4244: “参数”: 从“uintptr_t”转换到“ULONG”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(223): warning C4244: “参数”: 从“const T”转换到“const uint32_t”，可能丢失数据
+          with
+          [
+              T=uintptr_t
+          ]
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(434): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(435): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(436): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(437): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(438): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(439): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(440): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(80): warning C4244: “参数”: 从“uintptr_t”转换到“ULONG”，可能丢失数据
+  c:\users\user\desktop\valorant (1)\vexternal\vexternal.cpp(216): note: 参见对正在编译的函数 模板 实例化“T read<uintptr_t>(uintptr_t,uintptr_t)”的引用
+          with
+          [
+              T=uintptr_t
+          ]
+  正在生成代码...
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(context.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(init.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(input.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(monitor.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(vulkan.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(window.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_init.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_time.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_thread.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_thread.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_window.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(egl_context.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(osmesa_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(osmesa_context.obj)”或在“C:\Users\user\Desktop\valorant (1)\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  vexternal.vcxproj -> C:\Users\user\Desktop\valorant (1)\x64\Debug\vexternal.exe
